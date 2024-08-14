@@ -3,7 +3,7 @@ import timm
 
 from models.help_funcs import *
 from models.help_funcs import Transformer, TransformerDecoder, TwoLayerConv2d
-from models.UNetFormer import Block
+from models.GlobalLocalTransformerBlock import Block
 
 class SUNet18(nn.Module):
     def __init__(self, in_ch, out_ch,
