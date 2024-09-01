@@ -13,11 +13,11 @@ pip install -r requirements.txt
 
 To train the model, prepare a *.yaml* file and put in the ```config``` directory and then run the following command:
 ```bash
-python train.py --config="your_config_file"
+python train.py --config="config_file"
 ```
 To test your model, follow the same steps for training and then run the following command:
 ```bash
-python test.py --config="your_config_file"
+python test.py --config="config_file"
 ```
 
 
